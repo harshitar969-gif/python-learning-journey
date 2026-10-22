@@ -1,8 +1,6 @@
-num1=input("first number likho:")
-num2=input("second number likho:")
-n1=int(num1)
-n2=int(num2)
-print("add:" + str(n1+n2))
-print("sub:" + str(n1-n2))
-print("multiply:" + str(n1*n2))
-print("div:" + str(n1/n2))
+print("1 to 10 number")
+for i in range(1,11):
+  print(i)
+  print("\nTable of 5")
+for i in range(1,11):
+  print(f"5*{i}={5*i}")
