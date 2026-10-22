@@ -1,0 +1,8 @@
+num1=input("first number likho:")
+num2=input("second number likho:")
+n1=int(num1)
+n2=int(num2)
+print("add:" + str(n1+n2))
+print("sub:" + str(n1-n2))
+print("multiply:" + str(n1*n2))
+print("div:" + str(n1/n2))
