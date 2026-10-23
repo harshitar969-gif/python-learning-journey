@@ -1,0 +1,7 @@
+me={"name":"harshita", "sem":"mca 2nd", "cgpa":8.2}
+print(f"Name:{'name]'},CGPA:{me['cgpa']}")
+squares=[x*x for x in range(1,11)]
+print(f"squares:{squares}")
+with open("intro.txt","w")as f :
+    f.write(f"i am{me['name']},learning python day-8")
+    print("file ban gaei he")
